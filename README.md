@@ -1,1 +1,3 @@
-# Cosmic-Blueprint-
+# Cosmic Blueprint
+
+Lightweight full-stack astrology web app.
