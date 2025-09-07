@@ -1,0 +1,16 @@
+:root { --bg:#0d0f14; --card:#151924; --text:#e8ecf1; --muted:#a6b0c3; --accent:#7dd3fc; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui; background:var(--bg); color:var(--text); }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background: var(--card); border-radius: 16px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+.row { display:flex; gap:16px; flex-wrap: wrap; }
+.col { flex:1 1 360px; }
+label { display:block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+input, button, select { width:100%; padding:12px; border-radius:10px; border:1px solid #2a3142; background:#0f1320; color:var(--text); }
+button { cursor:pointer; }
+.btn { background: linear-gradient(90deg,#38bdf8,#818cf8); border:none; }
+.btn.secondary { background:#1f2937; }
+small.note { color: var(--muted); }
+hr { border:0; border-top:1px solid #2a3142; margin:16px 0; }
+.chartWrap { display:flex; justify-content:center; align-items:center; }
+svg { max-width: 100%; height: auto; }
